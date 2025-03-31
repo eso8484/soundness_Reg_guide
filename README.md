@@ -12,7 +12,7 @@ Visit the registration link below and enter your email:
 ### 2. Install Required Dependencies
 Run the following commands to update your system and install the required dependencies:
 ```sh
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y && sudo apt install -y pkg-config libssl-dev build-essential
 ```
 
 ### 3. Install Soundness Layer
